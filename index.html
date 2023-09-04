@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>🖥️Computer Classes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h2>Computer Classes 🧑🏻‍💻</h2>
+        <p class="tagline">Chapter wise videos for Learning Basic Computer</p>
+        <p class="abt">Managed & Developed by Karan Kushwaha</p>
+        <nav>
+            <p id="class">🧑🏻‍🏫Classes</p>
+            <p id="slbs">📚Syllabus</p>
+        </nav>
+    </header>
+    <main>
+        <div class="container" id="classes">
+            <div class="classholder">
+                <h3 class="chapter">Chapter 1</h3>
+                <h3 class="chaptername">Hardware & Software</h3>
+                <iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/Ojqdty-Oh1M?si=c54GzH06I6fB_4kq"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen class="video"></iframe>
+                <p class="description">
+                    <span>📝</span><b>Description :- </b>
+                    Look for knowledge of basic components of Hardware and Software. (Software in including use of AI)
+                </p>
+                <p class="assignments">
+                    <span>✒️</span><b>Project :- </b>
+                    Make a chart showing hardware and software of your Laptop/Computer.</p>
+                <button>
+                    <a
+                    href="https://youtu.be/Ojqdty-Oh1M?si=c54GzH06I6fB_4kq"
+                    >Watch on YouTube</a> 👀
+                </button>
+            </div>
+            <div class="classholder">
+                <h3 class="chapter">Chapter 2</h3>
+                <h3 class="chaptername">Understanding Windows 11</h3>
+                <iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/ZTSuHYxrxF4?si=EiB9HIQu2vWlJtmM"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen class="video"></iframe>
+                <p class="description">
+                    <span>📝</span><b>Description :- </b>
+                    Explore your computer & look for features of Win-11 & understand desktop & File system.
+                </p>
+                <p class="assignments">
+                    <span>✒️</span><b>Project :- </b>
+                    Use and learn about "File Explorer" & "Settings".</p>
+                <button>
+                    <a
+                    href="https://youtu.be/ZTSuHYxrxF4?si=EiB9HIQu2vWlJtmM"
+                    >Watch on YouTube</a> 👀
+                </button>
+            </div>
+            <div class="classholder">
+                <h3 class="chapter">Chapter 3</h3>
+                <h3 class="chaptername">MS - Office</h3>
+                <iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/YrZqw_O9CE0?si=QDBXZvuNXXbrXrCf"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen class="video"></iframe>
+                <p class="description">
+                    <span>📝</span><b>Description :- </b>
+                    Basic understanding what is office & its usage. And look for basic implications.
+                </p>
+                <p class="assignments">
+                    <span>✒️</span><b>Project :- </b>
+                    Have a look of Office Apps like - Excel, Powerpoint and Word.</p>
+                <button>
+                    <a
+                    href="https://youtu.be/YrZqw_O9CE0?si=QDBXZvuNXXbrXrCf"
+                    >Watch on YouTube</a> 👀
+                </button>
+            </div>
+
+
+
+
+
+
+            <div class="classholder">
+                <p style="font-size: 1.2rem;">
+                    More Videos are coming soon. <img src="giphy.gif" alt="">
+                </p>
+            </div>
+        </div>
+        <div class="container" id="Syllabus">
+            <h1>Content will be uploaded soon...</h1>
+        </div>
+    </main>
+    <footer>
+        <p>
+            Designed and Managed by <span>Karan Kushwaha</span>.
+        </p>
+        <p>
+            Version - 9/23@karan©️
+        </p>
+    </footer>
+
+    <script>
+        let clss = document.getElementById("class");
+        clss.addEventListener("click", showclss);
+        function showclss() {
+            document.getElementById("classes").style.display = 'flex';
+            document.getElementById("Syllabus").style.display = 'none';
+        }
+        
+        let slbs = document.getElementById("slbs");
+        slbs.addEventListener("click", showcslbs);
+        function showcslbs() {
+            document.getElementById("classes").style.display = 'none';
+            document.getElementById("Syllabus").style.display = 'block';
+        }
+        </script>
+</body>
+
+</html>
