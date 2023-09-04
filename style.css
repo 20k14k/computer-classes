@@ -152,7 +152,7 @@ iframe{
 .classholder p img{
     width: 300px;
     border-radius: 20px;
-    margin: 25px;
+    margin: 25px 0;
 }
 
 
@@ -200,6 +200,9 @@ footer p span{
     }
     .classholder{
         width: 98vw;
+    }
+    iframe{
+        height: 140px;
     }
     footer{
         flex-direction: column;
